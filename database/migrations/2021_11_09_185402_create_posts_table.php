@@ -23,6 +23,7 @@ class CreatePostsTable extends Migration
             $table->text("body");
             $table->integer("likes")->nullable();
             $table->timestamp("published_at")->nullable();
+            $table->string('thumbnail')->nullable();
             $table->timestamps();
         });
     }

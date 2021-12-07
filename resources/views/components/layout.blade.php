@@ -4,14 +4,14 @@
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-<script src="//unpkg.com/alpinejs" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 
 <body style="font-family: Open Sans, sans-serif">
     <section class="px-6 py-8">
         <nav class="md:flex md:justify-between md:items-center">
             <div>
                 <a href="/blog">
-                    <img src="./images/logo.svg" alt="Laracasts Logo" width="165" height="16">
+                    <img src="./images/logo_transparent.png" alt="Joel Dettinger Logo" width="165" height="16">
                 </a>
             </div>
 
@@ -25,11 +25,11 @@
                         </x-slot>
 
                         @admin
-                        <x-dropdown-item href="/admin/posts" :active="request()->is('admin/posts')">
+                        <x-dropdown-item href="/blog/admin/posts" :active="request()->is('admin/posts')">
                             Dashboard
                         </x-dropdown-item>
 
-                        <x-dropdown-item href="/admin/posts/create" :active="request()->is('admin/posts/create')">
+                        <x-dropdown-item href="/blog/admin/posts/create" :active="request()->is('admin/posts/create')">
                             New Post
                         </x-dropdown-item>
                         @endadmin
@@ -61,21 +61,19 @@
         {{ $slot }}
 
         <footer class="bg-gray-100 border border-black border-opacity-5 rounded-xl text-center py-16 px-10 mt-16">
-            
+
             <div class="mt-10">
-                <div class="relative inline-block mx-auto lg:bg-gray-200 rounded-full">
-
-                    <form method="POST" action="#" class="lg:flex text-sm">
-                        <div class="lg:py-3 lg:px-5 flex items-center">
-                            <label for="email" class="hidden lg:inline-block">
-                                <img src="./images/mailbox-icon.svg" alt="mailbox letter">
-                            </label>
-
-                            <input id="email" type="text" placeholder="Your email address"
-                                class="lg:bg-transparent py-2 lg:py-0 pl-4 focus-within:outline-none">
-                        </div>
-                    </form>
+                <p class="font-bold text-3xl">
+                    Github Repository
+                </p>
+                <div class="relative inline-block mx-auto ">
+                        <a href="https://github.com/dettinjo/laravel-blog">
+                            <img src="./images/github-logo.png" alt="Github Logo" width="50" height="50" >
+                        </a>
                 </div>
+                <p class="font-bold mt-10">
+                    Joel Dettinger - B00484071
+                </p>
             </div>
         </footer>
     </section>
