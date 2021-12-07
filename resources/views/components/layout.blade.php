@@ -11,7 +11,7 @@
         <nav class="md:flex md:justify-between md:items-center">
             <div>
                 <a href="/blog">
-                    <img src="./images/logo_transparent.png" alt="Joel Dettinger Logo" width="165" height="16">
+                    <img src="{{ asset('images/logo_transparent.png') }}" alt="Joel Dettinger Logo" width="165" height="16">
                 </a>
             </div>
 
@@ -68,7 +68,7 @@
                 </p>
                 <div class="relative inline-block mx-auto ">
                         <a href="https://github.com/dettinjo/laravel-blog">
-                            <img src="./images/github-logo.png" alt="Github Logo" width="50" height="50" >
+                            <img src="{{ asset('images/github-logo.png') }}" alt="Github Logo" width="50" height="50" >
                         </a>
                 </div>
                 <p class="font-bold mt-10">
