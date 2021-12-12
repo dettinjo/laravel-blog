@@ -44,14 +44,14 @@ class AdminPostController extends Controller
 
         $post->update($attributes);
 
-        return back()->with('success', 'Post Updated!');
+        return back()->with('success', 'Post updated');
     }
 
     public function destroy(Post $post)
     {
         $post->delete();
 
-        return back()->with('success', 'Post Deleted!');
+        return back()->with('success', 'Post deleted');
     }
 
     protected function validatePost(?Post $post = null): array

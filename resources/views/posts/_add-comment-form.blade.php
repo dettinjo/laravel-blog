@@ -33,7 +33,7 @@
     </x-panel>
 @else
     <p class="font-semibold">
-        <a href="/register" class="hover:underline">Register</a> or
-        <a href="/login" class="hover:underline">log in</a> to leave a comment.
+        <a href="/blog/register" class="hover:underline">Register</a> or
+        <a href="/blog/login" class="hover:underline">log in</a> to leave a comment.
     </p>
 @endauth
