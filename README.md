@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/dettinjo/laravel-blog">
-    <img src="public/images/logo_transparent.png" alt="Logo" width="165">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" alt="Logo" width="400">
   </a>
 
   <h3 align="center">Laravel Blog</h3>
@@ -64,8 +64,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-![Product Screenshot](public/images/screenshot.png)
 
 This project is a fully functional blog created with Laravel. It was developed as part of a project for the course 10015 Server Side Systems during my semester abroad at the University of the West of Scotland.
 
@@ -131,7 +129,8 @@ Make sure you have the following software installed on your machine.
 5. Compile front-end assets
    ```sh
    npm run dev
-   ```6. Create a copy of the `.env.example` file and name it `.env`
+   ```
+6. Create a copy of the `.env.example` file and name it `.env`
    ```sh
    cp .env.example .env
    ```
