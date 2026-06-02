@@ -6,5 +6,15 @@
   "publishLink": true,
   "liveUrl": null,
   "repoUrl": "https://github.com/dettinjo/laravel-blog",
-  "tags": ["Laravel", "PHP", "MySQL", "Tailwind CSS", "Blade", "MVC", "Eloquent ORM", "REST API"]
+  "tags": [
+    "Laravel",
+    "PHP",
+    "MySQL",
+    "Tailwind CSS",
+    "Blade",
+    "MVC",
+    "Eloquent ORM",
+    "REST API"
+  ],
+  "description": "A full-stack blog platform built with Laravel, featuring authentication, comments, and Blade-templated views."
 }
