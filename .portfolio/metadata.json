@@ -1,0 +1,10 @@
+{
+  "title": "Laravel Blog CMS",
+  "projectType": "Full-Stack Web Application",
+  "developedAt": "2021-12-06T00:00:00+00:00",
+  "weight": 2,
+  "publishLink": true,
+  "liveUrl": null,
+  "repoUrl": "https://github.com/dettinjo/laravel-blog",
+  "tags": ["Laravel", "PHP", "MySQL", "Tailwind CSS", "Blade", "MVC", "Eloquent ORM", "REST API"]
+}
