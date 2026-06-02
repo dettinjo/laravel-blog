@@ -16,5 +16,8 @@
     "Eloquent ORM",
     "REST API"
   ],
-  "description": "A full-stack blog platform built with Laravel, featuring authentication, comments, and Blade-templated views."
+  "description": "A full-stack blog platform built with Laravel, featuring authentication, comments, and Blade-templated views.",
+  "titleDe": "Laravel Blog",
+  "descriptionDe": "Eine vollständige Blog-Plattform mit Laravel, Authentifizierung, Kommentarsystem und Blade-Templating.",
+  "projectTypeDe": "Web-Anwendung"
 }
