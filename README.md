@@ -1,8 +1,14 @@
+<!-- portfolio:date=2021-12-06 -->
+
 [English](README.md) · [Deutsch](README.de.md)
 
 # Laravel Blog CMS
 
 A full-featured blog content management system built with the Laravel PHP framework. This project served as a comprehensive introduction to server-side MVC architecture, relational databases, and Laravel's ecosystem of tools.
+
+<p align="center">
+  <img src="docs/laravel.svg" alt="Laravel" width="170" />
+</p>
 
 ### Features
 
