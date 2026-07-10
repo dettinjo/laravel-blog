@@ -4,7 +4,7 @@
 
 # Laravel Blog
 
-Eine vollständige Blogging-Plattform, entwickelt mit dem PHP-Framework Laravel. Das Projekt demonstriert Backend-Entwicklung mit MVC-Architektur, Datenbankmigrationen und Blade-Templating.
+Eine Full-Stack-Blog-Plattform mit Laravel, inklusive Authentifizierung, Kommentarfunktion und Blade-Templates.
 
 <p align="center">
   <img src="docs/laravel.svg" alt="Laravel" width="170" />
