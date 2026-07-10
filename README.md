@@ -4,7 +4,7 @@
 
 # Laravel Blog CMS
 
-A full-featured blog content management system built with the Laravel PHP framework. This project served as a comprehensive introduction to server-side MVC architecture, relational databases, and Laravel's ecosystem of tools.
+A full-stack blog platform built with Laravel, featuring authentication, comments, and Blade-templated views.
 
 <p align="center">
   <img src="docs/laravel.svg" alt="Laravel" width="170" />
